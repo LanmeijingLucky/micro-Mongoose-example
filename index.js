@@ -1,8 +1,6 @@
 const { send, json } = require('micro')
 const { router, get, post, del, options } = require('microrouter');
 
-const mongoose  = require('mongoose');
-
 const Log = require('./data.js');
 const connectWithDB = require('./db');
 
