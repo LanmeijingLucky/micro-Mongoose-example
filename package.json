@@ -1,0 +1,22 @@
+{
+  "name": "microlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 5500",
+    "dev": "micro-dev -p 5670",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microrouter": "^2.2.2",
+    "mongoose": "^4.11.12",
+    "mpromise": "^0.5.5",
+    "openssl-self-signed-certificate": "^1.1.6"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.2.2"
+  }
+}
